@@ -1,9 +1,14 @@
-def prnt(v, n):
-    for i in range(n):
-        print(v[i])
-        pass
-
 def getAntiMatrix(v):
+
+    """
+    Получает обратную матрицу от заданной
+
+    Args:
+        v (list[list]): Исходная матрица
+
+    Returns:
+        list[list]: Обратная матрица
+    """
 
     n = len(v)
 
